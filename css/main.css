@@ -1,0 +1,30 @@
+header {
+  background-image: url("../images/purple-texture.png");
+  background-size: cover;
+  min-height: 300px;
+  background-position: 25% 0%;
+}
+
+body {
+  color: #000;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  bottom: 100px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.bar {
+  color: #fff;
+  background-color: #b976dd;
+}
+
+ol {
+  list-style-type: none;
+}
