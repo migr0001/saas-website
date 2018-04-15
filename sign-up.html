@@ -28,7 +28,7 @@
 
     <div class="gutter unit xs-1-2 s-1-2 m-1-2 l-1-2 right text-right pad-t-1-2">
       <nav role="navigation" id="nav" tabindex="0" class="pad-t-1-2">
-        <ul>
+        <ul class="list-group">
           <li class="giga not-bold">
             <a class="ib gutter-1-4" href="index.html"><span>Home</span></a>
             <a class="ib gutter-1-4" href="tour.html"><span>About Us</span></a>
@@ -53,7 +53,7 @@
   </div>
   <!--*END OF PURPLE BAR*-->
 
-  <main role="main">
+  <main role="main" id="main" tabindex="0">
     <div class="banner embed embed-24by10">
       <img class="embed-item" src="images/sign-copy.jpg" alt="" aria-details="book">
       <section class="banner-content pin-c w-1 max-length text-center" id="book">
@@ -69,17 +69,16 @@
       </div>
       <div class="unit xs-1 s-1 m-1 l-1 push">
         <label for="email">Your email</label>
-        <input id="email" type="email" placeholder="me@me.com" name="email" required>
+        <input id="email" type="email" placeholder="your-email@gmail.com" name="email" required class="micro" aria-label="email">
       </div>
       <div class="unit xs-1 s-1 m-1 l-1 push">
         <label for="password">Password</label>
         <input id="password" name="password" required>
       </div>
       <div class="unit xs-1 s-1 m-1 l-1 push-2 text-center">
-        <button class="btn btn-light mega" type="submit">Continue Here</button>
+        <button class="btn btn-light mega push-2" type="submit">Continue Here</button>
+        <hr>
       </div>
-
-      <hr>
 
       <div class="unit xs-1 s-1 m-1 l-1 text-center">
         <p>Already have and account?</p>
