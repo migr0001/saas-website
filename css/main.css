@@ -70,3 +70,7 @@ hr {
   border: 3px solid #7b65ae;
   color: #000;
 }
+
+th {
+  border: none;
+}
