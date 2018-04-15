@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>About Us</title>
+  <title>Tour About Us</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
@@ -13,13 +13,12 @@
 <body>
 
   <ul class="skip-links">
-    <li><a class="btn" href="#">Jump to Products</a></li>
-    <li><a class="btn" href="#">Jump to Pricing</a></li>
-    <li><a class="btn" href="#">Jump to Sign Up</a></li>
+    <li><a class="btn" href="#main">Jump to main</a></li>
+    <li><a class="btn" href="#nav">Jump to navigation</a></li>
   </ul>
 
   <!--*PURPLE TEXTURE*-->
-  <header class="banner zindex-1 xs-1 s-1 m-1 l-1">
+  <header class="banner zindex-1 xs-1 s-1 m-1 l-1" role="banner">
     <div class="gutter unit xs-1-2 s-1-2 m-1-2 l-1-2">
       <a href="index.html" class="pad-t-1-2">
         <i class="icon i-96"><img src="images/logo.png" alt="" aria-details="nav"></i>
@@ -54,7 +53,7 @@
   </div>
   <!--*END OF PURPLE BAR*-->
 
-  <main>
+  <main role="main">
     <div class="banner embed embed-24by10">
       <img class="embed-item" src="images/digital-world-copy.jpg" alt="" aria-details="book">
       <section class="banner-content pin-c w-1 max-length text-center" id="book">
@@ -80,7 +79,7 @@
       </div>
     </div>
 
-    <div class="grid gutter-2 center-content">
+    <div class="grid gutter-2 center-content push-1-2">
       <div class="unit xs-1 s-1-1 m-1-2 l-1-4 gutter">
         <img class="img-flex" src="images/why-marketo.png" alt="">
       </div>
@@ -94,7 +93,26 @@
         </figure>
       </div>
     </div>
-    <!--*END OF CARDS*-->
+
+    <div class="black gutter-2 pad-t-1-2">
+      <table class="push-0">
+        <caption class="mega push-1-4 normal">Got a burning question that you need answered?</caption>
+        <thead>
+          <tr>
+            <th scope="col">Contact</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td class="text-center">leader@marketo.com</td>
+            <td class="text-center">|</td>
+            <td class="text-center">(613) 123-4567</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
   </main>
 
   <footer class="footer micro text-center island-1-2" role="contentinfo">

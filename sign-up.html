@@ -13,13 +13,12 @@
 <body>
 
   <ul class="skip-links">
-    <li><a class="btn" href="#">Jump to Products</a></li>
-    <li><a class="btn" href="#">Jump to Pricing</a></li>
-    <li><a class="btn" href="#">Jump to Sign Up</a></li>
+    <li><a class="btn" href="#main">Jump to main</a></li>
+    <li><a class="btn" href="#nav">Jump to navigation</a></li>
   </ul>
 
-<!--*PURPLE TEXTURE*-->
-  <header class="banner zindex-1 xs-1 s-1 m-1 l-1">
+  <!--*PURPLE TEXTURE*-->
+  <header class="banner zindex-1 xs-1 s-1 m-1 l-1" role="banner">
     <div class="gutter unit xs-1-2 s-1-2 m-1-2 l-1-2">
       <a href="index.html" class="pad-t-1-2">
         <i class="icon i-96"><img src="images/logo.png" alt="" aria-details="nav"></i>
@@ -54,7 +53,7 @@
   </div>
   <!--*END OF PURPLE BAR*-->
 
-  <main>
+  <main role="main">
     <div class="banner embed embed-24by10">
       <img class="embed-item" src="images/sign-copy.jpg" alt="" aria-details="book">
       <section class="banner-content pin-c w-1 max-length text-center" id="book">
@@ -63,26 +62,26 @@
       </section>
     </div>
 
-    <form class="push-0 max-length island-2" method="POST" action="https://formspree.io/migr0001@algonquinlive.com">
-      <div class="push">
+    <form class="grid push-0 max-length island-2" method="POST" action="https://formspree.io/migr0001@algonquinlive.com">
+      <div class="unit xs-1 s-1 m-1 l-1 push">
         <label for="name">Name</label>
         <input id="name" name="name" required>
       </div>
-      <div class="push">
+      <div class="unit xs-1 s-1 m-1 l-1 push">
         <label for="email">Your email</label>
         <input id="email" type="email" placeholder="me@me.com" name="email" required>
       </div>
-      <div class="push">
+      <div class="unit xs-1 s-1 m-1 l-1 push">
         <label for="password">Password</label>
         <input id="password" name="password" required>
       </div>
-      <div class="push-2 text-center">
+      <div class="unit xs-1 s-1 m-1 l-1 push-2 text-center">
         <button class="btn btn-light mega" type="submit">Continue Here</button>
       </div>
 
       <hr>
 
-      <div class="text-center">
+      <div class="unit xs-1 s-1 m-1 l-1 text-center">
         <p>Already have and account?</p>
         <button class="btn btn-light mega" type="submit">Log In Here</button>
       </div>
