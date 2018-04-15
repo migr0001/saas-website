@@ -1,5 +1,5 @@
 html {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 header {
@@ -48,7 +48,6 @@ a {
   border: none;
 }
 
-
 footer {
   background-color: #b8a7dd;
   color: #fff;
@@ -61,7 +60,7 @@ footer {
 }
 
 hr {
-    border: 0;
-    border-bottom: 1px dashed #ccc;
-    background: #999;
+  border: 0;
+  border-bottom: 1px dashed #ccc;
+  background: #999;
 }
