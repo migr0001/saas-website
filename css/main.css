@@ -39,38 +39,57 @@ a {
 
 .bar {
   color: #fff;
-  background-color: #b8a7dd;
+  background-color: #5f4c7f;
   border-top: 10px double #fff;
 }
 
 .btn {
-  background-color: #1fb8e1;
+  background-color: #069;
   border: none;
   color: #fff;
 }
 
 footer {
-  background-color: #b8a7dd;
+  background-color: #5f4c7f;
   color: #fff;
   border-top: 10px double #fff;
 }
 
 .black {
-  background-color: #7b65ae;
+  background-color: #5f4c7f;
   color: #fff;
 }
 
 hr {
   border: 0;
-  border-bottom: 1px dashed #ccc;
+  border-bottom: 1px dashed #b8a7dd;
   background: #999;
 }
 
 .card {
-  border: 3px solid #7b65ae;
+  border: 3px solid #5f4c7f;
   color: #000;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+img {
+  border-radius: 6px;
 }
 
 th {
   border: none;
+}
+
+a:hover {
+  background-color: #b8a7dd;
+}
+
+.btn:hover {
+  background-color: #b8a7dd;
+  color: #5f4c7f;
+}
+
+button:hover {
+  background-color: #b8a7dd;
 }
