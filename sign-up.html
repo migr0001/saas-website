@@ -76,10 +76,10 @@
         <input id="password" name="password" required>
       </div>
 
-      <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-b-1-2">
+      <div class="unit xs-1 s-1 m-1 l-1 push">
         <label for="shirt">Province</label>
         <select class="border" id="shirt" name="_shirt">
-          <option value="">Select a t-shirt size</option>
+          <option value="">Choose one</option>
           <option>British Columbia</option>
           <option>Alberta</option>
           <option>Saskatchewan</option>
@@ -96,12 +96,24 @@
         </select>
       </div>
 
-      <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-t-2 milli">
+      <div class="unit xs-1 s-1 m-1 l-1 push">
+        <label for="address">City</label>
+        <input class="border" id="city" name="city" required>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1 l-1 push">
         <label for="address">Street address</label>
         <input class="border" id="address" name="address" required>
       </div>
 
+      <fieldset class="unit">
+        <legend class="unit xs-1 s-1 m-1 l-1 giga">Are you looking to be a long-time member?</legend>
+        <input id="oo" type="radio" name="radio">
+        <label class="unit island" for="oo">Yes</label>
 
+        <input id="hindi" type="radio" name="radio">
+        <label class="unit island" for="hindi">no</label>
+      </fieldset>
 
 
       <div class="unit xs-1 s-1 m-1 l-1 push-1-2 text-center">
