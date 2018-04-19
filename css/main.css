@@ -93,3 +93,11 @@ a:hover {
 button:hover {
   background-color: #b8a7dd;
 }
+
+.drop-menu li {
+  display: none; // HIDE
+}
+
+li:hover > .drop-menu li {
+  display: block; // SHOW
+}
