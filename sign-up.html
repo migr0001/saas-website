@@ -22,14 +22,13 @@
     <div class="gutter unit xs-1-2 s-1-2 m-1-2 l-1-2">
       <a href="index.html" class="pad-t-1-2">
         <i class="icon i-96"><img src="images/logo.png" alt="" aria-details="nav"></i>
-        <span class="tera bold logo-text giga icon-label text-left">Marketo</span>
       </a>
     </div>
 
     <div class="gutter unit xs-1-2 s-1-2 m-1-2 l-1-2 right text-right pad-t-1-2">
-      <nav role="navigation" id="nav" tabindex="0" class="pad-t-1-2">
+      <nav role="navigation" id="nav" tabindex="0" class="pad-t-1-2 island-1-2">
         <ul class="list-group">
-          <li class="giga not-bold">
+          <li class="not-bold">
             <a class="ib gutter-1-4" href="index.html"><span>Home</span></a>
             <a class="ib gutter-1-4" href="tour.html"><span>About Us</span></a>
             <a class="ib gutter-1-4" href="pricing.html"><span>Pricing</span></a>
@@ -38,17 +37,6 @@
         </ul>
       </nav>
     </div>
-
-    <!--*HAMBURGER ICON*-->
-    <nav role="navigation" id="nav" tabindex="0" class="pad-t-1-2">
-      <ul class="list-group drop-menu">
-        <li>Home</li>
-        <li>About Us</li>
-        <li>Pricing</li>
-        <li>Sign Up</li>
-      </ul>
-    </nav>
-    <!--*END HAMBURGER ICON*-->
 
   </header>
 
@@ -74,9 +62,9 @@
       </section>
     </div>
 
-    <form class="grid push-0 island-2" method="POST" action="https://formspree.io/migr0001@algonquinlive.com">
+    <form class="grid push-0 gutter-1-2 center-content-horizontal pad-t-2" method="POST" action="https://formspree.io/migr0001@algonquinlive.com">
       <div class="card gutter">
-        <h2 class="unit xs-1 s-1 m-1 l-1 pad-t-2 bold giga">Account</h2>
+        <h2 class="unit xs-1 s-1 m-1 l-1 pad-t-1-2 bold giga">Account</h2>
         <div class="unit xs-1 s-1 m-1 l-1 push">
           <label for="name">Name</label>
           <input id="name" name="name" required>
@@ -85,12 +73,14 @@
           <label for="email">Your email</label>
           <input id="email" type="email" placeholder="your-email@gmail.com" name="email" required class="micro" aria-label="email">
         </div>
-        <div class="unit xs-1 s-1 m-1 l-1 push">
+        <div class="unit xs-1 s-1 m-1 l-1 push-2">
           <label for="password">Password</label>
           <input id="password" name="password" required>
         </div>
 
-        <h2 class="unit xs-1 s-1 m-1 l-1 pad-t-2 bold giga">Personal details</h2>
+        <hr>
+
+        <h2 class="unit xs-1 s-1 m-1 l-1 pad-t-1-2 bold giga">Personal details</h2>
         <div class="unit xs-1 s-1 m-1-2 l-1-2 push">
           <label for="shirt">Province</label>
           <select class="border" id="shirt" name="_shirt">
@@ -125,9 +115,10 @@
           <label id="birth" for="dob">Date of birth</label>
           <input class="border" id="dob" type="date" name="email" required>
         </div>
+<hr>
 
-        <fieldset class="unit xs-1 s-1 m-1 l-1">
-          <legend class="unit xs-1 s-1 m-1 l-1 not-bold">Are you looking to be a long-time member?</legend>
+        <fieldset class="unit xs-1 s-1 m-1 l-1 text-center">
+          <legend class="unit xs-1 s-1 m-1 l-1 gutter giga">Are you looking to be a long-time member?</legend>
           <input id="oo" type="radio" name="radio">
           <label class="unit island" for="oo">Yes</label>
 

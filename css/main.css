@@ -94,10 +94,20 @@ button:hover {
   background-color: #b8a7dd;
 }
 
-.drop-menu li {
-  display: none; // HIDE
+.nav-label img {
+  display: block;
+  width: 100%;
 }
 
-li:hover > .drop-menu li {
-  display: block; // SHOW
+.nav-check:checked ~ ul.nav {
+  display: block;
+}
+
+.nav-label {
+  cursor: pointer;
+  display: inline-block;
+  width: 40px;
+  position: absolute;
+  top: 1.3em;
+  right: .5em;
 }
