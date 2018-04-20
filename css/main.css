@@ -27,7 +27,7 @@ h1 {
   color: #7b65ae;
 }
 
-h2 {
+h3 {
   text-align: center;
   bottom: 70px;
 }
@@ -94,21 +94,23 @@ button:hover {
   background-color: #b8a7dd;
 }
 
-.navclass > ul > li:hover {
+i:hover {
   background-color: #b8a7dd;
-  text-align: center;
 }
 
-ul.sub-menu {
-  list-style-type: none;
-  opacity: 0;
+section h2 {
+  background-color: #fff;
+  opacity: .8;
 }
 
-.navclass li:hover .sub-menu {
-  opacity: 1;
-  visibility: visible;
+main div section {
+  background-color: #fff;
+  opacity: .8;
+  padding-top: 15px;
+  border-radius: 8px;
+  color: #000;
 }
 
-ul.submenu li:hover {
-  background-color: #b8a7dd;
+.relative {
+  background-color: #000;
 }
