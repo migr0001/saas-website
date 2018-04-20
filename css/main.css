@@ -94,20 +94,21 @@ button:hover {
   background-color: #b8a7dd;
 }
 
-.nav-label img {
-  display: block;
-  width: 100%;
+.navclass > ul > li:hover {
+  background-color: #b8a7dd;
+  text-align: center;
 }
 
-.nav-check:checked ~ ul.nav {
-  display: block;
+ul.sub-menu {
+  list-style-type: none;
+  opacity: 0;
 }
 
-.nav-label {
-  cursor: pointer;
-  display: inline-block;
-  width: 40px;
-  position: absolute;
-  top: 1.3em;
-  right: .5em;
+.navclass li:hover .sub-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+ul.submenu li:hover {
+  background-color: #b8a7dd;
 }
