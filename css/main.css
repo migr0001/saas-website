@@ -17,6 +17,7 @@ h1 {
   color: #fff;
   text-align: center;
   bottom: 120px;
+  letter-spacing: 15px;
 }
 
 .white {
@@ -109,4 +110,66 @@ main div section {
   padding-top: 15px;
   border-radius: 8px;
   color: #000;
+}
+
+/* HEADER ICONS */
+header {
+  text-align: left;
+  position:
+
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  display: none;
+  position: absolute;
+}
+
+.nav a {
+  display: block;
+  margin: .5em;
+  padding: 0;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav a:hover {
+  color: #fff;
+}
+
+[type="checkbox"] + label::before {
+  position: absolute;
+  top: -7em;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-label {
+  cursor: pointer;
+  font-size: 1rem;
+  display: inline-block;
+  width: 20px;
+  position: absolute;
+  right: 5rem;
+  top: 10px;
+}
+
+.nav-close {
+  display: block;
+  width: 100%;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
 }
