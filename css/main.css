@@ -103,7 +103,7 @@ button:hover {
   background-color: #b8a7dd;
 }
 
-i:hover {
+a > i:hover {
   background-color: #b8a7dd;
   border-radius: 8px;
 }
